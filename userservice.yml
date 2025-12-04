@@ -1,3 +1,7 @@
+spring:
+  application:
+    name: config-default
+
 eureka:
   client:
     service-url:
@@ -7,4 +11,3 @@ eureka:
 
   instance:
     prefer-ip-address: true
-
